@@ -1,5 +1,13 @@
-
-body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2rem; line-height: 1.6; }
-nav a { margin-right: 1rem; text-decoration: none; }
-h1, h2 { font-weight: 600; }
-footer { margin-top: 3rem; font-size: 0.9em; color: #666; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; max-width: 900px; margin: 0 auto; }
+nav { margin-bottom: 10px; }
+nav a { margin-right: 20px; text-decoration: none; color: #0066cc; font-weight: 500; }
+nav a.active, nav a:hover { color: #cc0000; text-decoration: underline; }
+hr { margin: 20px 0; border: 0; border-top: 1px solid #ddd; }
+h1 { color: #1a1a1a; margin-bottom: 10px; }
+h2 { color: #0066cc; margin-top: 25px; }
+ul, ol { margin-left: 20px; margin-bottom: 15px; }
+li { margin-bottom: 8px; }
+footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.9em; color: #555; text-align: center; }
+a { color: #0066cc; }
+a:hover { text-decoration: underline; }
