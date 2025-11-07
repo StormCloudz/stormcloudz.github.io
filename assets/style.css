@@ -11,3 +11,5 @@ li { margin-bottom: 8px; }
 footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.9em; color: #555; text-align: center; }
 a { color: #0066cc; }
 a:hover { text-decoration: underline; }
+img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+figure { margin: 20px 0; text-align: center; }
