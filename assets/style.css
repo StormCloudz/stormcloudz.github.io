@@ -923,3 +923,23 @@ li{ margin-bottom:.6rem; }
     font-size: 0.95rem;
   }
 }
+
+/* ---------- INDIVIDUAL ICON SIZES ---------- */
+.social-icon img {          /* default – you already have 110×110 */
+  width: 110px;
+  height: 110px;
+}
+
+/* ---- change any of these values as you like ---- */
+.size-gs        img { width: 130px; height: 140px; }   /* Google Scholar – a bit bigger */
+.size-orcid     img { width:  100px; height:  90px; }   /* ORCID – smaller */
+.size-rg        img { width: 150px; height: 150x; }
+.size-scopus    img { width:  100px; height:  100px; }
+.size-wos       img { width: 130px; height: 130px; }
+.size-linkedin  img { width: 135px; height: 125px; }   /* LinkedIn – stand-out */
+.size-gmail     img { width: 135px; height: 125px; }   /* Gmail */
+.size-github    img { width: 135px; height: 125px; }   /* GitHub */
+
+
+/* keep the hover scaling relative to the new size */
+.social-icon:hover img { transform: scale(1.1); }
