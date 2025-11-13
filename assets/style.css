@@ -249,11 +249,11 @@ li{ margin-bottom:.6rem; }
 .doi-link {
   color: #111;
   text-decoration: none;
-  font-weight: 600;
-  border-bottom: 1px solid #ffd84d;
+  font-weight: 700;
+  border-bottom: 2px solid #ffd84d;
   padding-bottom: 1px;
   transition: all 0.2s;
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 .doi-link:hover {
   color: #000;
@@ -943,3 +943,15 @@ li{ margin-bottom:.6rem; }
 
 /* keep the hover scaling relative to the new size */
 .social-icon:hover img { transform: scale(1.1); }
+
+.summary-label {
+  background:hsl(47, 96%, 81%);
+  color:#111;
+  font-size:0.7rem;
+  font-weight:700;
+  padding:2px 6px;
+  border-radius:3px;
+  margin-right:6px;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+}
